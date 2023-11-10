@@ -1,6 +1,18 @@
 ---
-title: Home
-layout: home
+layout: default
+title: Customization
+nav_order: 2
+---
+
+# Customization
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ---
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
