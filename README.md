@@ -172,3 +172,35 @@ The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party 
 [MIT License]: https://en.wikipedia.org/wiki/MIT_License
 [starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
 [actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
+
+`# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+color_scheme: nil
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red`
+
+{: .warning }
+Warning Callout
+
+{: .highlight }
+highlight Callout
+
+{: .important }
+important Callout
+
+{: .note }
+Note Callout
